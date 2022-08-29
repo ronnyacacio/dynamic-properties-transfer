@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "Ronny Acácio <ronny.acacio@jbq.global> (https://www.linkedin.com/in/ronnyacacio/)",
   "scripts": {
     "start": "node index.js"
   },
