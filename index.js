@@ -57,11 +57,10 @@ const createDynamicProperty = async (itemTypeId, dynamicProperty) => {
 
   try {
     await oracle.put(`ccadmin/v1/itemTypes/${itemTypeId}`, {specifications: [dynamicProperty]});
-    console.log(`✅ Dynamic property ${dynamicProperty.id} of item type ${itemTypeId} created successfully!`);
+    console.log(`✅ Dynamic property '${dynamicProperty.id}' of item type '${itemTypeId}' created successfully!`);
   } catch (err) {
     console.log(`❌ Dynamic property '${dynamicProperty.id}' of item type '${itemTypeId}' already exists!`);
   }
-
 };
 
 const createDynamicProperties = async itemTypes => {
