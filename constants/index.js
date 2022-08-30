@@ -1,0 +1,3 @@
+const PROPERTY_EXTERNAL_PREFIX = 'x_';
+
+module.exports = {PROPERTY_EXTERNAL_PREFIX};
