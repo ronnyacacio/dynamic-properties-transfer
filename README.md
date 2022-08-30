@@ -51,7 +51,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 # Clone este repositório
 $ git clone https://github.com/ronnyacacio/dynamic-properties-transfer.git
 
-# Crie um arquivo .env na pasta backend e o preencha conforme o arquivo .env.example
+# Crie um arquivo .env na raiz e o preencha conforme o arquivo .env.example
 
 # Depois disso, entre na pasta web e execute os comandos:
 $ yarn
